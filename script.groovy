@@ -13,3 +13,5 @@ def BuildImage() {
 def Deploy() {
     sh 'docker run -p 3000:3000 -d amagdi888/my-repo:NodeJS'
 }
+
+return this
